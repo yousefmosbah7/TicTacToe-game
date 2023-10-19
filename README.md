@@ -1,33 +1,44 @@
-# TicTacToe-game
-##Features:
+<head>
+  <title>Tic Tac Toe Game Documentation</title>
+</head>
 
-###1)Multi player mode : Two players play against each other.
-###2)Single player mode : User play against an implemented smart
- algorithm that tries to win the game, this mode has to levels:
-  a-hard level (unbeaten) if the program starts first.
-  b-easy level if the user starts first.
-  
-but how can we decide who will start the user or the program?!
-###3)Rock Paper Scissor : a fast simple game to decide who will start first
+<body>
 
+  <h1>Tic Tac Toe Game</h1>
 
-##The game will accept these inputs from the user:
+  <h2>Features</h2>
+  <ul>
+    <li>Multiplayer mode: Two players play against each other.</li>
+    <li>Single-player mode: User plays against an implemented smart algorithm that tries to win the game. This mode has two levels:
+      <ul>
+        <li>Hard level (unbeatable) if the program starts first.</li>
+        <li>Easy level if the user starts first.</li>
+      </ul>
+    </li>
+    <li>Rock Paper Scissors: A fast simple game to decide who will start first.</li>
+  </ul>
 
-###->an input to choose between the two modes
-###->names of the players
-###->the position where you want to play in using x,y axis
-###->Rock,Paper or Scissor (Single player mode)
-###->(Q or q) to quite the game any time during playing
-###->After finishing the first round, choose you want to play another round or end the game
+  <h2>Inputs</h2>
+  <ul>
+    <li>An input to choose between the two modes.</li>
+    <li>Names of the players.</li>
+    <li>The position where you want to play using the x, y axis.</li>
+    <li>Rock, Paper, or Scissors (Single-player mode).</li>
+    <li>(Q or q) to quit the game at any time during play.</li>
+    <li>After finishing the first round, choose whether you want to play another round or end the game.</li>
+  </ul>
 
+  <h2>Algorithm</h2>
+  <p>
+    The implemented algorithm has the ability to detect any chance to win and seize it, any chance to lose and avoid it, and it can also decide the positions which will increase its winning opportunities.
+  </p>
 
-##Algorithm:
+  <h2>Tools</h2>
+  <ul>
+    <li>Understand Scitool: Used for code analysis.</li>
+    <li>Drawio: Used for application flowchart.</li>
+  </ul>
 
-###The implemented algorithm has the ability to detect any chance to win and get it, any chance to lose and avoid it and also can
-decide the positions which will increase his winning opportunities.
+</body>
 
-
-##Tools:
-
-###1-Understand Scitool : for code analysis
-###2-Drawio : for aplication flowchart
+</html>
